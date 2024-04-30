@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding-bottom: 3rem;
+  background-color: #f9f8f8;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  /* atau gunakan font-weight jika diperlukan */
+  font-weight: 700; /* misalnya, untuk bold */
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  /* atau gunakan font-weight jika diperlukan */
+  font-weight: 620; /* misalnya, untuk bold */
+}
+.teks {
+  margin-left: 7px;
+}
+.list-group-item {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.service-content-box {
+  margin-left: 30px;
+}
+.service-icon-box {
+  margin-left: 8px;
+}
+label {
+  font-weight: 600;
+}
+nav {
+  font-size: 15px;
+  font-weight: 500;
+}
+/* garis dibawah About me */
+.garis {
+  border-top: 7px solid #e35933;
+  width: 70px;
+}
+/* akhir garis */
+.teks-about {
+  font-size: 15px;
+}
+
+.teks-skill {
+  font-size: 16px;
+}
+
+/* kode menghilankan warna biru dan garis bawah pada tekslink */
+a[href^="mailto:"] {
+  color: inherit; /* Mengambil warna teks dari induknya */
+  text-decoration: none; /* Menghapus garis bawah */
+}
+/* akhir kode */
+
+/* kode memberi spasi antar ikon sosmed */
+#ikonsosmed a {
+  margin-right: 10px;
+  color: inherit; /* Mengambil warna teks dari induknya */
+  text-decoration: none; /* Menghapus garis bawah */
+  font-size: 1.2em; /* Mengatur ukuran font menjadi 1.2 kali ukuran font default */
+}
+/* akhir kode */
+
+/* warna ikon sosmed */
+.facebook-icon {
+  color: #1877f2; /* Warna asli Facebook */
+}
+.twitter-icon {
+  color: #1da1f2; /* Warna asli Twitter */
+}
+.instagram-icon {
+  color: #e4405f; /* Warna asli Instagram */
+}
+.linkedin-icon {
+  color: #0a66c2; /* Warna asli LinkedIn */
+}
+/* akhird kode */
+
+.service {
+  padding-top: 2rem;
+}
+#konten {
+  padding-top: 2rem;
+}
